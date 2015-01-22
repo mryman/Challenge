@@ -1,17 +1,113 @@
+/* SMACSS-Base */
+
 body {
-  font-family: Georgia, Times, serif;}
-h1.blogname {font-family: Yellowtail, sans-serif;}
-p.tagline {font-family: Abel, sans-serif;
-           font-size: 12px;
-           color: rgb(85,85,85);}
-h2.post-title{font-family: Oswald, sans-serif;
-              font-size: 40px;
-              font-weight: bold;
-              width: 824px;}
+  font-family: 'Droid', Times, serif;
+  margin: 40px auto 40px auto;}
 
-p#postdate, p#print{font-family: Abel, sans-serif;
-           font-size: 12px;
-           color: rgb(85,85,85);}
+h1 {
+  font-family: 'Yellowtail', sans-serif;
+  font-size: 40px;}
 
-ul.ingredients {font-family: 'Patrick Hand', cursive;
-                font-size: 24px;}
+h2.post-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 4rem;
+  width: 824px;}
+
+p.small-all-caps {
+  font-family: 'Abel', sans-serif;
+  font-size: 12px;
+  color: rgb(85,85,85);
+}
+
+.social-icons {
+  margin: 2px;
+}
+
+section.social-icons img:nth-child(6) {
+  margin: 0 0 0 4px;
+}
+.float-right {
+  float: right;
+}
+
+article {
+  margin: 50px 0px 0px 0px;
+}
+
+.main-img {
+  width: 940px;
+  margin-bottom: 10px;
+}
+
+p.first-ind {
+  font-size: 20px;
+  text-indent: 30px;
+  margin: 20px 0px 20px 0px;
+  line-height: 20px;
+}
+
+section.steps {
+  margin: 20px 0px 0px 0px;
+}
+
+section.ingredients {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  margin: 0 0 10 -6px;
+  background-image: url("../images/list-bg.png");
+  }
+
+ul.ingredients1 {
+  margin: 14px 0 0 50px;
+}
+
+ul.ingredients2 {
+  margin: 14px 10 0 20px;
+}
+
+img.greybar {
+  margin: 20px 0px 0px 0px;
+}
+
+img#authorPic {
+  margin: 20px;
+}
+
+h2.author{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+button.share {
+  background-color: rgb(187,112,86);
+  color: white;
+  height: 54px;
+  width: 200px;
+  margin: 20px;
+  float: right;
+}
+
+img.btmIcon {
+  margin: 0 0 30px 0;
+}
+
+p.copyright {
+  text-align: center;
+  margin: 50px 0 5px 0;
+}
+
+p.published {
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+/* SMACSS-Layout */
+
+/* SMACSS-Module */
+
+/* SMACSS-States */
+
+/* SMACSS-Theme */
