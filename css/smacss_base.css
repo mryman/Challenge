@@ -46,3 +46,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+body {
+  font-family: 'Droid', Times, serif;
+  margin: 40px auto 40px auto;}
+
+h1 {
+  font-family: 'Yellowtail', sans-serif;
+  font-size: 40px;}
+
+article {
+  margin: 50px 0px 0px 0px;
+}
